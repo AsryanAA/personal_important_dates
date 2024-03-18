@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/personal_important_dates/static/css/main.3c9fa997.css",
+    "main.js": "/personal_important_dates/static/js/main.05b94578.js",
+    "static/media/back1.avif": "/personal_important_dates/static/media/back1.283149dbbcb2afb99336.avif",
+    "index.html": "/personal_important_dates/index.html",
+    "main.3c9fa997.css.map": "/personal_important_dates/static/css/main.3c9fa997.css.map",
+    "main.05b94578.js.map": "/personal_important_dates/static/js/main.05b94578.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3c9fa997.css",
+    "static/js/main.05b94578.js"
+  ]
+}
