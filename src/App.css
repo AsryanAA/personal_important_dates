@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    background-image: url('../public/back1.avif');
+    max-width: 500px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    padding: 10px;
+}
+
+.dates {
+    display: flex;
+    flex-direction: column;
+    margin: 10px;
+}
+
+.dates h4 {
+    margin-left: 30px;
+    font-family: cursive;
+}
+
+.foto {
+    width: 170px;
+    height: 200px;
+    border-radius: 80%;
+}
+
+.dating_day,
+.wedding_day,
+.current_time,
+.baby_time {
+    color: aliceblue;
+    font-size: 13px;
+    margin: 5px;
+}
+
+.dating_day span {
+    color: green;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.wedding_day span {
+    color: red;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.baby_time {
+    margin-bottom: 30px;
+}
+
+.current_time {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    flex-direction: column;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.copy {
+    font-size: 10px;
+}
