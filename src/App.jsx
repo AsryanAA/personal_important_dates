@@ -63,7 +63,7 @@ const App = () => {
 
     return <>
         <div className='container'>
-            <img src='./old.jpg' className='foto' alt='ooops?' />
+            <div className='main_photo'></div>
             <div className='dates'>
                 <div className='dating_day'>
                     <p>Мы познакомились <span>{datingDay.toLocaleString()}</span></p>

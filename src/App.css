@@ -11,7 +11,7 @@ body {
 }
 
 .container {
-    background-image: url('../public/back1.avif');
+    background-image: url('../public/back.avif');
     max-width: 500px;
     position: relative;
     display: flex;
@@ -31,10 +31,12 @@ body {
     font-family: cursive;
 }
 
-.foto {
+.main_photo {
     width: 170px;
     height: 200px;
     border-radius: 80%;
+    background-image: url('../public/1.jpg');
+    background-size: cover;
 }
 
 .dating_day,
@@ -47,17 +49,22 @@ body {
 }
 
 .dating_day span {
-    color: green;
+    color: red;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .wedding_day span {
-    color: red;
+    color: blue;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .baby_time {
     margin-bottom: 30px;
+}
+
+.baby_time span {
+    color: orange;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 .current_time {
