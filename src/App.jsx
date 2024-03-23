@@ -16,7 +16,7 @@ const App = () => {
         setDatingDayString(
             Math.floor(diff / 1000 / 60 / 60 / 24 / 30 / 12) + ' year ' +
             Math.floor(diff / 1000 / 60 / 60 / 24 / 30 % 12) + ' month ' +
-            Math.floor(diff / 1000 / 60 / 60 / 24 - 365) + ' days ' +
+            Math.floor(diff / 1000 / 60 / 60 / 24 / 30) + ' days ' +
             Math.floor(diff / 1000 / 60 / 60 % 24) + ' hours ' +
             Math.round(diff / 1000 / 60 % 60) + ' minutes ' +
             // Math.round(diff / 1000 % 60) + ' seconds ' +
@@ -42,7 +42,7 @@ const App = () => {
         setBirthDayString(
             Math.floor(diff / 1000 / 60 / 60 / 24 / 30 / 12) + ' year ' +
             Math.floor(diff / 1000 / 60 / 60 / 24 / 30 % 12) + ' month ' +
-            Math.floor(diff / 1000 / 60 / 60 / 24 - 365) + ' days ' +
+            Math.floor(diff / 1000 / 60 / 60 / 24 / 30) + ' days ' +
             Math.floor(diff / 1000 / 60 / 60 % 24) + ' hours ' +
             // Math.round(diff / 1000 / 60 % 60) + ' minutes ' +
             // Math.round(diff / 1000 % 60) + ' seconds ' +
