@@ -1,18 +1,22 @@
 {
   "files": {
     "main.css": "/personal_important_dates/static/css/main.2a0ca8c0.css",
-    "main.js": "/personal_important_dates/static/js/main.dc2efae5.js",
+    "main.js": "/personal_important_dates/static/js/main.9bf1a72d.js",
     "static/media/1.jpg": "/personal_important_dates/static/media/1.f65be6e0d4976ceb619f.jpg",
+    "static/media/main6.jpg": "/personal_important_dates/static/media/main6.cd1d85c9c69b83b1593c.jpg",
+    "static/media/main4.jpg": "/personal_important_dates/static/media/main4.e38340e5ad5294bdac85.jpg",
+    "static/media/main5.jpg": "/personal_important_dates/static/media/main5.c07c309bb67e20fe957e.jpg",
     "static/media/main2.jpg": "/personal_important_dates/static/media/main2.5add516da87696f1e74a.jpg",
     "static/media/main1.jpg": "/personal_important_dates/static/media/main1.8c0fdf181656ddc7dd4c.jpg",
     "static/media/main.jpg": "/personal_important_dates/static/media/main.d0b0c36e46af473b0349.jpg",
+    "static/media/main3.jpg": "/personal_important_dates/static/media/main3.52441b70df61f90bcc7f.jpg",
     "static/media/back.avif": "/personal_important_dates/static/media/back.283149dbbcb2afb99336.avif",
     "index.html": "/personal_important_dates/index.html",
     "main.2a0ca8c0.css.map": "/personal_important_dates/static/css/main.2a0ca8c0.css.map",
-    "main.dc2efae5.js.map": "/personal_important_dates/static/js/main.dc2efae5.js.map"
+    "main.9bf1a72d.js.map": "/personal_important_dates/static/js/main.9bf1a72d.js.map"
   },
   "entrypoints": [
     "static/css/main.2a0ca8c0.css",
-    "static/js/main.dc2efae5.js"
+    "static/js/main.9bf1a72d.js"
   ]
 }
