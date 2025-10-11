@@ -12,12 +12,12 @@ body {
 
 .container {
     background-image: url('../public/back.avif');
-    max-width: 500px;
+    max-width: 800px;
     position: relative;
     display: flex;
     align-items: center;
     border-radius: 5px;
-    padding: 10px;
+    padding: 5px;
 }
 
 .dates {
@@ -32,7 +32,7 @@ body {
 }
 
 .main_photo {
-    width: 170px;
+    width: 200px;
     height: 200px;
     border-radius: 80%;
     background-image: url('../public/1.jpg');
