@@ -1,16 +1,18 @@
-import React, { useState, useEffect } from 'react'
+import { useState, useEffect } from 'react'
+// import reactLogo from './assets/react.svg'
+// import viteLogo from '/vite.svg'
 import './App.css'
 
-const App = () => {
-    const [currentTime, setCurrentTime] = useState(new Date)
+const App: React.FC = () => {
+    const [ currentTime, setCurrentTime ] = useState<Date>(new Date)
 
     const datingDay = new Date('01.25.2023 12:30:00')
     const weddingDay = new Date('10.07.2023 18:00:00')
     const birthDay = new Date('12.02.2023 12:00:00')
 
-    const [datingDayString, setDatingDayString] = useState('')
-    const [weddingDayString, setWeddingDayString] = useState('')
-    const [birthDayString, setBirthDayString] = useState('')    
+    const [ datingDayString, setDatingDayString ] = useState<string>('')
+    const [ weddingDayString, setWeddingDayString ] = useState<string>('')
+    const [ birthDayString, setBirthDayString ] = useState<string>('')
 
     const updateDatingDate = () => {
         setDatingDayString(timeSince(datingDay))
@@ -35,10 +37,8 @@ const App = () => {
         return () => clearInterval(intervalId)
     }, [])
 
-    function timeSince(start) {
+    function timeSince(start: Date) {
         const now = new Date();
-
-        if (isNaN(start)) return "Некорректная дата";
 
         let years = now.getFullYear() - start.getFullYear();
         let months = now.getMonth() - start.getMonth();
@@ -73,7 +73,7 @@ const App = () => {
             years--;
         }
 
-        const plural = (n, forms) => {
+        const plural = (n: number, forms: [string, string, string]): string => {
             n = Math.abs(n) % 100;
             const n1 = n % 10;
             if (n > 10 && n < 20) return forms[2];

@@ -1,15 +1,3 @@
-* {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-}
-
-body {
-    margin: 10%;
-    display: flex;
-    justify-content: center;
-}
-
 .container {
     background-image: url('../public/back.avif');
     max-width: 800px;
